@@ -26,7 +26,7 @@ ELAS was weakly integrated into [IARA](http://www.lcad.inf.ufes.br/wiki/index.ph
 
 ### Source-code
 
-Available soon.
+I'm working on the source-code to make it easier to use. Meanwhile, you can use [this code](https://github.com/LCAD-UFES/carmen_lcad/tree/master/src/lane_analysis).
 
 ### BibTeX
 
