@@ -26,7 +26,9 @@ ELAS was weakly integrated into [IARA](http://www.lcad.inf.ufes.br/wiki/index.ph
 
 ### Source-code
 
-I'm working on the source-code to make it easier to use. Meanwhile, you can use [this code](https://github.com/LCAD-UFES/carmen_lcad/tree/master/src/lane_analysis).
+I'm working on the source-code to make it easier to use. Meanwhile, you can use [this code](https://github.com/LCAD-UFES/carmen_lcad/tree/master/src/lane_analysis). In addition, you can preview the annotation and see how bird's eye view was performed using the python script provided in the `scripts` directory:
+
+    python scripts/preview_dataset.py --dataset /full/path/to/a/dataset/directory/ --fps 30
 
 ### BibTeX
 
@@ -34,6 +36,8 @@ I'm working on the source-code to make it easier to use. Meanwhile, you can use 
         Author  = {Rodrigo F. Berriel and Edilson de Aguiar and Alberto F. de Souza and Thiago Oliveira-Santos},
         Title   = {{Ego-Lane Analysis System (ELAS): Dataset and Algorithms}},
         Journal = {Image and Vision Computing},
+        Volume  = {68},
+        Pages   = {64--75}
         Year    = {2017},
         DOI     = {10.1016/J.IMAVIS.2017.07.005},
         ISSN    = {0262-8856},
