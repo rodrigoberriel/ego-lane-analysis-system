@@ -98,7 +98,7 @@ def main(dataset_dir, fps):
 
         # vars
         y, h = config['dataset']['region_of_interest']['@y'], config['dataset']['region_of_interest']['@height']
-        ys = [y, round(y + h / 4), round(y + h / 2), y + h - 1]
+        ys = [y, math.ceil(y + h / 4.), math.ceil(y + h / 2.), y + h - 1]
 
         # IPM
         ipm_img = apply_ipm(img, config, ys)
