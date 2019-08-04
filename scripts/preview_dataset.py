@@ -21,6 +21,7 @@ lmt_images = {
 
 
 def draw_spline(image, lane, ys, color=[0, 0, 255]):
+    lane = [lane for lane in lane if str(lane) != 'nan']
     pts = [[x, ys[i]]for i, x in enumerate(lane) if not math.isnan(x)]
     if len(pts)-1 > 0:
         spline = interpolate.splrep([pt[1] for pt in pts], [pt[0] for pt in pts], k=len(pts)-1)
