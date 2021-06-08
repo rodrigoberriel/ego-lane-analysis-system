@@ -8,7 +8,7 @@ To access the database:
 
 - Sign it, and scan it.
 
-- Send an email to **rfberriel [at] inf.ufes.br** and include the signed EULA as a pdf.
+- Send an email to **berriel [at] lcad.inf.ufes.br** and include the signed EULA as a pdf.
 
 Please note that requests from free email addresses (hotmail, yahoo, gmail, etc.) will be refused. After submission of the EULA, it may take up to a week for you to receive the download link (you will receive a notification by email).
 
